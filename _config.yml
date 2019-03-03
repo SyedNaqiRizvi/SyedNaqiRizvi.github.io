@@ -1,0 +1,21 @@
+plugins:
+  - jekyll-seo-tag
+
+url: "http://www.naqirizvi.com"
+baseurl: ""
+
+title: Naqi Rizvi
+description: Professional Portfolio of Naqi Rizvi
+
+author:
+  name: Naqi Rizvi
+
+social-network-links:
+  email: "naqi@naqirizvi.com"
+  github: SyedNaqiRizvi
+  twitter: SyedNaqiRizvi
+  linkedin: naqirizvi
+
+share-links-active:
+  twitter: true
+  linkedin: true
