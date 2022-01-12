@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>
@@ -254,6 +255,7 @@
         <h2>Get in Touch</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/f/xlezronw">
+		<div class="g-recaptcha" data-sitekey="6Lf5OwkeAAAAAKzwABWEojFYqAZMMQotbztmUbae"></div>
                 <input type="hidden" name="_subject" value="Contact request from naqirizvi.com" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
